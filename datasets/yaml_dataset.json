@@ -1,0 +1,122 @@
+[
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build  # Missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:  # Fixed missing colon\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n"
+    },
+    {
+        "faulty_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n    - name: Checkout code\n    uses: actions/checkout@v2  # Incorrect indentation\n",
+        "corrected_yaml": "name: CI Pipeline\non:\n  push:\n    branches:\n      - main\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2  # Fixed indentation\n"
+    }
+]
